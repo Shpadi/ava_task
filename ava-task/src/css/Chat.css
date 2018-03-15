@@ -1,0 +1,136 @@
+.Chat {
+  display: flex;
+  border-radius: 5px;
+  width: 55%;
+  height: 62vh;
+  margin: auto;
+  background-color: #fff;
+}
+
+
+.Chat__sidebar {
+  width: 225px;
+  transition: 0.1s linear;
+  padding: 20px;
+  background-color: #D3D3D3;
+  box-sizing:border-box;
+  border-radius: 5px 0px 0px 5px;
+}
+.Chat__sidebarmobile {
+  display: none;
+  width: 90px;
+  transition: 0.1s linear;
+  padding: 20px;
+  background-color: #D3D3D3;
+  box-sizing:border-box;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.Chat__sidebaritemmobile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.Chat__sidebaritemmobile img:hover {
+  transform: rotate(30deg);
+  transition: 0.3s linear;
+}
+
+
+.Chat__sidebaritem {
+  display: flex;
+  position: relative;
+  align-items:center;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin: 5px 0px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Chat__sidebaritem img{
+  width: 40px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.Chat__block {
+  width: 80%;
+  position: relative;
+}
+
+.Chat__messagesblock {
+  width: 100%;
+  height: 52vh;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+
+.Chat__sendblock {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 10vh;
+  border-top: 1px solid #D3D3D3;
+}
+
+.Chat__sendblock input {
+  border:1px solid #D3D3D3;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.bubbleRight {
+  display: flex;
+  align-items:flex-start;
+  justify-content: flex-end;
+  margin: 10px 0px;
+}
+
+.bubbleLeft {
+  display: flex;
+  align-items:flex-start;
+  justify-content: flex-start;
+  margin: 10px 0px;
+}
+
+.Chat__avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right:5px;
+}
+
+.Chat__sideblockmobile img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.Chat__text {
+  color:#fff;
+  text-align: left;
+  padding: 7px 15px;
+  background-color: #5ac5c6;
+  border-radius: 5px;
+}
+
+
+.bubbleLeft > .Chat__text {
+  background-color: #ebbbbb;
+}
+
+
+.active {
+  background-color: #00FF7F;
+}

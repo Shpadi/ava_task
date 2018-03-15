@@ -1,0 +1,40 @@
+@media screen and (max-width:1100px) {
+  .Chat {
+    width: 70%;
+  }
+
+
+}
+
+@media screen and (max-width:850px) {
+  .Chat {
+    width: 90%;
+  }
+
+  .Chat__sidebar {
+    width: 90px;
+  }
+
+  .Chat__block {
+    width: 87%;
+    position: relative;
+  }
+
+
+
+  .Chat__sidebar {
+    display: none;
+  }
+
+  .Chat__sidebarmobile {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width:400px) {
+  .Chat__avatar {
+    display: none;
+  }
+}
+
